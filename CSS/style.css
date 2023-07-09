@@ -1,0 +1,33 @@
+.nav-bar{
+border: 1px solid red;
+border-radius: 15px;
+background-color: black;
+list-style: none;
+text-align: center;
+word-spacing: 2em;
+
+
+
+}
+.nav-bar{
+    padding-left: 75px;
+    padding-right: 75px;
+    border-style: none;
+}
+.nav-bar{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: red;
+    }
+a:hover{
+    color: white;
+}
+li{
+    display: inline;  
+}
+footer {
+    border-top: 5px ridge red;
+}
