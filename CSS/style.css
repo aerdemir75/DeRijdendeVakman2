@@ -1,13 +1,45 @@
 .nav-bar{
+    width: 600px;
+    height: 50px;
 border: 1px solid red;
 border-radius: 15px;
 background-color: black;
 list-style: none;
 text-align: center;
 word-spacing: 2em;
+}
 
 
+header{
+    display: grid;
+    grid-template-row: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "intro nav";
+}
 
+footer{
+    display: grid;
+    grid-template-row: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "copyr kvk";
+}
+.copyright{
+    grid-area: copyr;
+    
+}
+.kvk{
+    grid-area: kvk;
+    text-align: end;
+}
+
+img{
+    grid-area: intro;
+}
+
+nav{
+    grid-area: nav;
 }
 .nav-bar{
     padding-left: 75px;
