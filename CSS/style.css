@@ -9,6 +9,9 @@ text-align: center;
 word-spacing: 2em;
 }
 
+.kvk{
+    color: orange;
+}
 
 header{
     display: grid;
